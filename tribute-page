@@ -1,0 +1,101 @@
+<head>
+  <!--Thick Roboto font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <!--Medium Roboto font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!--Light Roboto font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Roboto;
+      background-color: #E9E9E9;
+    }
+    h1 {
+      font-weight: 900;
+    }
+    li {
+      margin: 40px;
+    }
+    #div {
+      width: 100%;
+      top-margin: 0;
+      padding: 20px;
+      background-color: white;
+    }
+    #title {
+      margin: auto;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      background-color: #E9E9E9;
+    }
+    #picture {
+      background-color: white;
+      margin: auto;
+      width: 99%;
+      border-radius: 5px;
+    }
+    .padded-figure {
+      padding-bottom: 15px;
+    }
+    .fit-img {
+      margin: auto;
+      height: 40em;
+      width: auto;
+      padding: 10px;
+      display: flex;
+      align-items:center;
+    }
+    .center-caption {
+      text-align: center;
+      font-weight: 300;
+    }
+    .center-text {
+      text-align: center;
+      position: relative;
+      top: 20px;
+    }
+    .center {
+      margin-left: 34%;
+    }
+    #list {
+      position: relative;
+      top: 20px;
+    }
+    #bottom-par {
+      padding-bottom: 9em;
+    }
+  </style>
+  <title>Tim Ferriss tribute page</title>
+</head>
+<body>
+  <div id='title'>
+    <h1>Tim Ferriss</h1>
+    <p>A thoroughly admirable man</p>
+  </div>
+  <div id='picture'>
+  <figure class='padded-figure'>
+    <img class='fit-img' src='https://i0.wp.com/tim.blog/wp-content/uploads/2021/01/Tim-Ferriss-in-Austin-2020.jpg?w=1200&ssl=1'>
+    <figcaption class='center-caption'>Tim Ferriss feels a bit tipsy after chugging half a bottle of vodka</figcaption>
+  </figure>
+  </div>
+  <div>
+    <p class='center-text'>Tim Ferris has done many interesting things. Here is a list of some of his most remarkable accomplishments.</p>
+    <ul id='list' class='center'>
+      <li>1977 - Was born</li>
+      <li>1977 - Reached the tender age of 4 hours</li>
+      <li>2007 - Published "The 4-Hour Workweek"</li>
+      <li>2010 - Published "The 4-Hour Body"</li>
+      <li>2012 - Published "The 4-Hour Chef"</li>
+      <li>2014 - Made a very very succesfull podcast</li>
+      <li>2022 - Celebrated his 44th birthday</li>
+    </ul>
+  </div>
+  <p id='bottom-par' class='center-text'>If you have been intrigued by this curious character, you can visit Tim Ferriss's website <a href='tim.blog'>here</a>.</p>
+</body>
