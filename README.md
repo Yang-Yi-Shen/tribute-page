@@ -1,2 +1,2 @@
 # tribute-page
-A tribute page
+A tribute page.
